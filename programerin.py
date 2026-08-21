@@ -5,6 +5,7 @@ lista.pop(3)
 print(lista)
 lista.insert(1, 99)
 print(lista)
-
+lista.append("ferdaws")
+print(lista)
 
 
