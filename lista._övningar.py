@@ -45,11 +45,81 @@
 #         print(d)
 
 
-for s in range(1,31):
-    if s %5==0:
-        print(s)
+# for s in range(1,31):
+#     if s %5==0:
+#         print(s)
+
+
+
+# for w in range(0, 30):
+
+#     if w > 15 and w % 2==0:
+
+
+#         print(w)
+
+# for x in range(0,50):
+#     if x > 20 and x %3 ==0:
+#         print(x)
 
 
 
 
+# for b in range(1, 31):
+#     if b % 3==0 or b % 5==0:
+#         print(b)
+
+
+# for h in range(0, 50):
+#     if h > 10 and h <30:
+
+#         print(h)
+
+# for o in range(1, 51):
+#     if o < 10 or o>40:
+#         print(o)
+
+
+# for u in range(0, 11):
+
+#     if u !=5:
+#         print(u)
+
+
+
+
+
+
+
+
+
+
+# for r in range(1, 21):
+#     if r == 11:
+#         break
+#     print(r)
+
+
+
+
+
+# for y in range(1, 11):
+#     if y ==5:
+#         continue
+#     print(y)
+
+
+
+# for m in range(1,21):
+#     if m %2==1:
+#         continue
+#     print(m)
+
+
+
+
+for n in range(1,21):
+    if n ==16:
+        break
+    print(n)
 
