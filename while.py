@@ -8,13 +8,14 @@
 #         print("Stort")
 
 
+# f = 1
+# while f<=5:
+#     print(f)
+#     f+=1
 
+d= 1
+while d <=10 and d % 2==0:
+       print(d)
 
+       d+=1
 
-
-tal = input("Skriv ett tal: ")
-
-while tal != "0":
-    tal = input("Skriv ett tal: ")
-
-print("Programmet avslutas")
