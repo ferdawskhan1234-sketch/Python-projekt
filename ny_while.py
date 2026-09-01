@@ -68,15 +68,73 @@
 #     a+=1
 # print(count)
 
-q =1 
-count = 0
-while q <= 30:
-    if q % 2==0:
-        count+=1
+# q =1 
+# count = 0
+# while q <= 30:
+#     if q % 2==0:
+#         count+=1
         
-    elif q % 3==0:
-        count+=1
+#     elif q % 3==0:
+#         count+=1
 
-    q+=1
+#     q+=1
+# print(count)
+
+# k = 1
+# count=0
+# while k <= 20:
+#     if k % 2==1:
+#         k+=1
+#         continue
+    
+#     count+=1
+#     k+=1
+    
+# print(count)
+
+
+
+
+# v = 1
+# count=0
+# while v <=30:
+#     if v % 3==0 and v % 2!=0:
+        
+#         count+=1
+#     v+=1
+
+        
+# print(count)
+    
+# z = 1
+# count=0 
+# while z <=50:
+#     if z % 4==0 and z % 3!=0:
+#         count+=1
+#     z+=1
+# print(count)
+
+# i = 1
+# count=0
+# while i <=50:
+#     if i % 2==1 and i % 5==0:
+#         count+=1
+#     i+=1
+# print(count)
+
+
+
+g = 1
+count= 0
+while g <=50:
+    if g % 3==0 or g % 7==0:
+        count+=1
+    g+=1
 print(count)
+
+
+    
+
+
+    
 
