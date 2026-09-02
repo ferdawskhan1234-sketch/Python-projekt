@@ -139,8 +139,20 @@
 #     print("finns inte")
 
 
-lista1 =["ferdaws",  "khan", "visal", "Qesmat", "Ali", "Moska"]
-if "Sara" not in lista1:
-    print("finns inte  lista1")
-else:
-    print("finns  i lista1")
+# lista1 =["ferdaws",  "khan", "visal", "Qesmat", "Ali", "Moska"]
+# if "Sara" not in lista1:
+#     print("finns inte  lista1")
+# else:
+#     print("finns  i lista1")
+
+m = 1
+while m <=50:
+    if m % 5==0:
+        print("fem")
+        
+    elif m % 3==0:
+        print("Tre")
+        
+    else:
+        print("Annat")
+    m+=1
