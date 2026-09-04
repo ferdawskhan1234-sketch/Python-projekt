@@ -140,9 +140,197 @@ u =1
 
 
 
-for f in range(1, 21):
-    if f % 3==0:
-        print(f)
+# for f in range(1, 21):
+#     if f % 3==0:
+#         print(f)
+
+
+
+
+
+# for g in range(1, 30):
+#     if g %2==0 and g > 10:
+#         print(g)
+
+
+
+
+# for h in range(1, 21):
+#     if h % 2==0:
+#         print("jämnt")
+#     else:
+#         print("udda")
+
+
+# count=0
+
+# for j in range(1, 31):
+#     if j % 2==0:
+#         count+=1
+# print(count)
+
+
+
+
+
+# count = 0
+# for k in range(1, 51):
+#     if k % 2==1 and k % 3==0:
+#         count+=1
+# print(count)
+
+
+# for z in range(30, 0 , -1):
+#     if z % 4==0:
+#      print(z)
+
+
+# for x in range(25, 0, -1):
+#     if x % 2==1:
+#         print(x)
+
+
+# count = 0
+# for c in range(1, 51):
+#     if c % 2==0 and c % 3==0:
+#         count+=1
+# print(count)
+
+# for v in range(1, 31):
+
+#     if v % 3 == 0 and v % 5 == 0:
+#         print("FizzBuzz")
+
+#     elif v % 3 == 0:
+#         print("Fizz")
+
+#     elif v % 5 == 0:
+#         print("Buzz")
+
+#     else:
+#         print("Annat")
+
+
+# for b in range(1, 51):
+#     if b % 3==0 and b % 5!=0:
+#         print(b)
+
+#for n in range(1, 51):
+    # if n %2==0 and n % 3 ==0:
+    #     print("sex")
+    # elif n % 2==0:
+    #     print("jämnt")
+    # elif n % 3==0:
+    #     print("tre")
+    # else:
+    #     print("Annat")
+
+# count=0
+# for m in range(1, 51):
+#     if m % 4==0 and m % 6 !=0:
+#         count+=1
+# print(count)
+
+
+# for q in range(1, 51):
+#     if q % 4 ==0 and q % 6==0:
+#         print(q)
+
+
+
+
+# for w in range(1, 31):
+#     if w % 3==0 and w % 5 ==0:
+#         print("tre fem")
+#     elif w % 3==0:
+#         print("tre")
+#     elif w % 5==0:
+#         print("fem")
+#     else:
+#         print(w)
+
+
+
+
+
+
+
+
+# frukter = ["äpple", "banan", "apelsin", "päron"]
+# for e in frukter:
+#     print(e)
+
+
+# lista = ["äpple", "banan", "apelsin", "päron"]
+# for r in lista:
+#     if r == "banan":
+#         print( "banan")
+#     else:
+#         print( "inte banan")
+
+# count=0
+# tal = [2, 5, 8, 11, 14, 17, 20]
+# for i in tal:
+#     if i % 2==0:
+#         count+=1
+# print(count)
+
+# tal1= [3, 8, 12, 15, 20, 25, 30]
+# for a in tal1:
+#     if a % 5==0:
+#         print(a)
+
+
+# tal2 = [4, 7, 10, 13, 16, 21]
+# for s in tal2:
+#     if s % 2==0:
+#         print("jämnt")
+#     elif s % 2==1:
+#         print("udda")
+
+
+
+# tal3 = [3, 6, 9, 12, 15, 18, 21] 
+# for j in tal3:
+#     if j > 10: 
+#         print("stort")
+#     else:
+#         print("Litet")
+count=0
+tal4 = [4, 7, 12, 15, 20, 23, 30]
+for d in tal4:
+    if d % 2==0 and d > 10:
+        count+=1
+print(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
