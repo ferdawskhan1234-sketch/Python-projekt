@@ -296,13 +296,29 @@ u =1
 #         print("stort")
 #     else:
 #         print("Litet")
-count=0
-tal4 = [4, 7, 12, 15, 20, 23, 30]
-for d in tal4:
-    if d % 2==0 and d > 10:
-        count+=1
-print(count)
 
+
+# count=0
+# tal4 = [4, 7, 12, 15, 20, 23, 30]
+# for d in tal4:
+#     if d % 2==0 and d > 10:
+#         count+=1
+# print(count)
+
+
+# count =0
+# tal5 = [5, 8, 11, 14, 17, 20, 23, 26, 29]
+# for g in tal5:
+#     if g % 2==1 and g > 15:
+#         count+=1
+# print(count)
+
+namn = ["Ali", "Sara", "Omar", "Lina", "Adam"]
+for x in namn:
+    if x == "Omar":
+        print( "Hittade omar")
+    else:
+       print("inte omar")
 
 
 
