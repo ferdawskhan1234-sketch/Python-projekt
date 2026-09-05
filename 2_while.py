@@ -313,12 +313,71 @@ u =1
 #         count+=1
 # print(count)
 
-namn = ["Ali", "Sara", "Omar", "Lina", "Adam"]
-for x in namn:
-    if x == "Omar":
-        print( "Hittade omar")
-    else:
-       print("inte omar")
+# namn = ["Ali", "Sara", "Omar", "Lina", "Adam"]
+# for x in namn:
+#     if x == "Omar":
+#         print( "Hittade omar")
+#     else:
+#        print("inte omar")
+
+
+
+
+
+# count =0
+
+# tal7 = [4, 11, 8, 17, 20, 23, 6, 15]
+# for b in tal7:
+#     if b >10 and b %2==0:
+#         count+=1
+# print(count)
+
+# tal8 = [3, 8, 12, 17, 20, 25, 30]
+# for c in tal8:
+#     if c % 5==0:
+#       print("fem")
+#     else:
+#        print(c)
+
+# count=0
+# tal9 = [12, 5, 18, 7, 20, 3, 25]
+# for f in tal9:
+#     if f > 10:
+#         count+=1
+# print(count)
+
+
+# tal = [7, 14, 3, 25, 11, 19]
+
+# storst = tal[0]
+
+# for m in tal:
+#     if m > storst:
+#         storst = m
+
+# print(storst)
+    
+tal12 = [12, 5, 27, 8, 19, 31, 14]
+
+s=tal12[0]
+for f in tal12:
+    if f > s:
+        s=f
+print(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
