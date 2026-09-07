@@ -97,13 +97,211 @@
 #         u+=1
 #         continue
 #     print(u)
-#     u+=1
+# #     u+=1
 
-y= 1
-count=0
-while y <=50:
-    if y % 2==0 and y >20 and y <40:
-        count+=1
-    y+=1
-print(count)
+# y= 1
+# count=0
+# while y <=50:
+#     if y % 2==0 and y >20 and y <40:
+#         count+=1
+#     y+=1
+# print(count)
         
+# namn0 = ["Ali", "Sara", "Omar", "Lina", "Alexander", "Eva", "Mohammed", "Adam"]
+# li=[]
+
+# for z in namn0:
+#     if len(z)==4 and z[0]=="A":
+#         li.append(z)
+        
+        
+# print(li)
+
+# ka = ["Ali", "Sara", "Omar", "Lina", "Alexander", "Eva", "Adam", "Anna"]
+# s=[]
+# for d in ka:
+#     if len(d) ==4 and d[0]=="A":
+#         s.append(d)
+# print(s)
+
+# t1al = [3, 8, 12, 15, 18, 21, 24, 27, 30]
+# st=[]
+# for j in t1al:
+#     if j >10 and j<25 and j %3==0:
+#         st.append(j)
+# print(st)
+
+# ta2l = [4, 7, 12, 15, 18, 21, 25, 30]
+# lista11=[]
+# lista22=[]
+# for t in ta2l:
+#     if t > 10 and t % 2==0:
+#         lista11.append(t)   
+#     else:
+#         lista22.append(t)
+# print(lista11)
+# print(lista22)
+
+
+# ta3l = [3, 8, 12, 15, 18, 21, 25, 30]
+# list1=[]
+# list2=[]
+# list3=[]
+# for a in ta3l:
+#     if a <10:
+#         list1.append(a)
+#     elif a > 10 and a < 20:
+#         list2.append(a)
+#     else:
+#         list3.append(a)
+# print(list1)
+# print(list2)
+# print(list3)
+
+
+
+
+
+# ta6l = [3, 8, 12, 15, 17, 20, 21, 25, 30]
+# lis1ta=[]
+# lis2ta=[]
+# lis3ta=[]
+# for u in ta6l:
+#     if u % 3==0:
+#         lis1ta.append(u)
+#     elif u % 5==0:
+#         lis2ta.append(u)
+#     else:
+#         lis3ta.append(u)
+# print(lis1ta)
+# print(lis2ta)
+# print(lis3ta)
+
+
+# na3mn = ["Ali", "Sara", "Alexander", "Omar", "Mohammed", "Eva", "Lina"]
+# kort=[]
+# mellam=[]
+# långa=[]
+# for p in na3mn:
+#     if len(p)==3:
+#         kort.append(p)
+#     elif len(p) >= 4 and len(p) <=5:
+#         mellam.append(p)
+#     else:
+#         långa.append(p)
+# print(kort)
+# print(mellam)
+# print(långa)
+
+# t2al = [5, 10, 12, 15, 20, 22, 25, 30]
+# små=[]
+# mellan=[]
+# stora=[]
+# for t in t2al:
+#     if t <=10:
+#         små.append(t)
+#     elif t >10 and t <=20:
+#         mellan.append(t)
+#     else:
+#         stora.append(t)
+# print(små)
+# print(mellan)
+# print(stora)
+
+
+# tall = [3, 6, 10, 12, 15, 18, 20, 21, 25, 30]
+# tre=[]
+# fem=[]
+# tre_fem=[]
+# andra=[]
+# for v in tall:
+#     if  v % 3==0 and v %5==0:
+#             tre_fem.append(v)
+#     elif v % 3==0:
+#         tre.append(v)
+#     elif v % 5==0:
+#         fem.append(v)
+
+#     elif v % 3==0 and v %5==0:
+#         tre_fem.append(v)
+#     else:
+#         andra.append(v)
+# print(tre)
+# print(fem)
+# print(tre_fem)
+# print(andra)
+
+#namn44 = ["Ali", "Sara", "Omar", "Alexander", "Eva", "Adam", "Mohammed"]
+# ny_lista=[]
+# for j in namn44:
+#     if len(j) >=4 and j[-1]=="a":
+#         ny_lista.append(j)
+# print(ny_lista)
+
+
+# namn55 = ["Ali", "Sara", "Omar", "Lina", "Eva", "Adam", "Anna"]
+# ny=[]
+# for y in namn55:
+#     if len(y)>=4 and y[0] =="A":
+#         ny.append(y)
+# print(ny)
+
+
+        
+namn66 = ["Ali", "Sara", "Omar", "Lina", "Eva", "Adam", "Anna", "Noah"]
+ny_listatvå=[]
+for g in namn66:
+    if len(g)>=4 and g[-1]=="a":
+        ny_listatvå.append(g)
+print(ny_listatvå)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
