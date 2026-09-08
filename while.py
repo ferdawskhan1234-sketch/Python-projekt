@@ -248,12 +248,54 @@
 
 
         
-namn66 = ["Ali", "Sara", "Omar", "Lina", "Eva", "Adam", "Anna", "Noah"]
-ny_listatvå=[]
-for g in namn66:
-    if len(g)>=4 and g[-1]=="a":
-        ny_listatvå.append(g)
-print(ny_listatvå)
+# namn66 = ["Ali", "Sara", "Omar", "Lina", "Eva", "Adam", "Anna", "Noah"]
+# ny_listatvå=[]
+# for g in namn66:
+#     if len(g)>=4 and g[-1]=="a":
+#         ny_listatvå.append(g)
+# print(ny_listatvå)
+
+
+
+# tal0 = [4, 7, 12, 15, 18, 21, 25, 30, 33]
+# lia101=[]
+# lia202=[]
+# for i in tal0:
+#     if i % 2==0 and i >10:
+#         lia101.append(i)
+#     elif i % 2==1 and i >10:
+#         lia202.append(i)
+# print(lia101)
+# print(lia202)
+
+
+
+# aal = [5, 8, 11, 14, 17, 20, 23, 26, 29]
+# jämna=[]
+# udda=[]
+# for r in aal:
+#     if r %2==0 and r>10:
+#         jämna.append(r)
+#     elif r % 2==1 and r < 20:
+#         udda.append(r)
+# print(jämna)
+# print(udda)
+
+
+
+
+
+count=0
+ctal = [4, 7, 12, 15, 18, 21, 24, 27, 30]
+li11=[]
+for o in ctal:
+    if o %2==0 and o >10:
+        li11.append(o)
+        count+=1
+print(li11)
+print(count)
+
+
 
 
 
