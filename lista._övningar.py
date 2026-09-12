@@ -118,8 +118,17 @@
 
 
 
-for n in range(1,21):
-    if n ==16:
-        break
-    print(n)
+# for n in range(1,21):
+#     if n ==16:
+#         break
+#     print(n)
+
+s= 0 
+count=0
+tal22 = [4, 9, 12, 15, 18, 21, 24, 27, 30]
+while s <len (tal22):
+    if tal22[s]%3==0:
+        count+=1
+        print(tal22,[s])
+    s+=1
 

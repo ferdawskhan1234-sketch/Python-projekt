@@ -357,13 +357,13 @@ u =1
 
 # print(storst)
     
-tal12 = [12, 5, 27, 8, 19, 31, 14]
+# tal12 = [12, 5, 27, 8, 19, 31, 14]
 
-s=tal12[0]
-for f in tal12:
-    if f > s:
-        s=f
-print(s)
+# s=tal12[0]
+# for f in tal12:
+#     if f > s:
+#         s=f
+# print(s)
 
 
 

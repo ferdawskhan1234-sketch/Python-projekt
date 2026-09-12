@@ -285,12 +285,12 @@
 
 
 
-namn3 = ["Ali", "Sara", "Omar", "Lina", "Alexander", "Eva"]
-a=[]
-for z in namn3:
-    if not len(z) ==3 or z[0]=="A":
-        a.append(z)
-print(a)
+# namn3 = ["Ali", "Sara", "Omar", "Lina", "Alexander", "Eva"]
+# a=[]
+# for z in namn3:
+#     if not len(z) ==3 or z[0]=="A":
+#         a.append(z)
+# print(a)
 
 
 

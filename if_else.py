@@ -246,15 +246,176 @@
 
 #Skriv ut det tredje talet som är udda och 
 #avsluta loopen när du hittar det
-a=0
+
+# a=0
+# count=0
+# tal21 = [7, 10, 13, 16, 19, 22, 25, 28, 31]
+# while a < len (tal21):
+#     if tal21[a]%2==1:
+#         count+=1
+#         if count==3:
+#             print(tal21[a])
+#     a+=1
+
+
+
+#Gå igenom listan och räkna hur
+# många tal som är delbara med 3.
+# s= 0 
+# count=0
+# tal22 = [4, 9, 12, 15, 18, 21, 24, 27, 30]
+# while s <len (tal22):
+#     if tal22[s] %3==0:
+#         count+=1
+#     s+=1
+
+# print(count)
+    
+
+#Gå igenom listan med while och räkna hur 
+#många tal som är udda.
+# d=0
+# count=0
+# tal23 = [5, 8, 11, 14, 17, 20, 23, 26, 29]
+# while d < len (tal23):
+#     if tal23[d]%2==1:
+#         count+=1
+#     d+=1
+# print(count)
+
+
+#Gå igenom listan med while och räkna hur 
+#många tal som är större än 15.
+# f=0
+# count=0
+# tal24= [4, 7, 10, 13, 16, 19, 22, 25, 28, 31]
+# while f < len (tal24):
+#     if tal24[f]>15:
+#         count+=1
+#     f+=1
+# print(count)
+
+#Gå igenom listan med while.
+#Lägg ihop alla tal som är jämna och skriv ut summan.
+# g=0
+
+# summa=0
+# tal25= [4, 7, 12, 15, 18, 21, 25, 30]
+# while g < len(tal25):
+#     if tal25[g]%2==0:
+    
+#         summa+=tal25[g]
+#     g+=1
+# print(summa)
+    
+#Gå igenom listan med while.
+#Hitta det minsta talet i listan och skriv ut det.
+# tal26 = [5, 12, 7, 20, 9, 15, 3, 18]
+# h = 0
+# minsta = tal26[0]
+
+# while h < len(tal26):
+#     if tal26[h] < minsta:
+#         minsta = tal26[h]
+
+#     h += 1
+
+# print(minsta)
+
+#Gå igenom listan med while.
+#Hitta det största talet och skriv ut det.
+
+# tal27 = [8, 15, 3, 22, 11, 6, 19]
+# j=0
+# största=tal27[0]
+# while j< len(tal27):
+#     if tal27[j]>största:
+#         största=tal27[j]
+#     j+=1
+# print(största)
+
+
+#Gå igenom listan med while.
+#Räkna ut summan av alla tal som är större än 10.
+
+# k=0
+# summa=0
+# tal28 = [4, 7, 12, 9, 18, 21, 5, 30]
+# while k < len(tal28):
+#     if tal28[k]>10:
+        
+#         summa+=tal28[k]
+#     k+=1
+
+# print(summa)
+
+#Gå igenom listan med while.
+# #Räkna ut medelvärdet av alla tal som är större än 10.
+# l=0
+# count=0
+
+# summa=0
+# tal29 = [6, 11, 4, 18, 9, 25, 14, 3]
+# while l < len (tal29):
+#     if tal29[l]>10:
+#         count+=1
+#         summa+=tal29[l]
+#         med=summa/count
+#     l+=1
+# print(med)
+
+
+
+
+#Gå igenom listan med while.
+#Räkna ut medelvärdet av alla jämna tal.
+
+z=0
 count=0
-tal21 = [7, 10, 13, 16, 19, 22, 25, 28, 31]
-while a < len (tal21):
-    if tal21[a]%2==1:
+summua=0
+tal30 = [7, 12, 5, 20, 9, 16, 3, 24]
+while z < len (tal30):
+    if tal30[z]%2==0:
         count+=1
-        if count==3:
-            print(tal21[a])
-    a+=1
+        summua+=tal30[z]
+        med=summua/count
+    z+=1
+print(med)
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

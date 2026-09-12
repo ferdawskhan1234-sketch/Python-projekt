@@ -68,9 +68,23 @@
 
 
 
-tal12 = [4, 7, 12, 15, 18, 21, 24, 30, 33]
+# tal12 = [4, 7, 12, 15, 18, 21, 24, 30, 33]
+# li=[]
+# for s in tal12:
+#     if s >10 and s <30 and s % 2==1:
+#         li.append(s)
+# print(li)
+
+namn0 = ["Ali", "Sara", "Omar", "Lina", "Alexander", "Eva", "Mohammed", "Adam"]
 li=[]
-for s in tal12:
-    if s >10 and s <30 and s % 2==1:
-        li.append(s)
+for z in namn0:
+    if len(z)==4:
+        li.append(z)
+        len(z, [0])
 print(li)
+
+
+
+
+
+

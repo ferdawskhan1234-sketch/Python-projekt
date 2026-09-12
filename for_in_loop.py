@@ -252,10 +252,10 @@
 #      print(len(n))
 
 
-namn2 = ["Ali", "Sara", "Omar", "Alexander"]
-for r in namn2:
-    if len(r) > 4:
-        print(r)
+# namn2 = ["Ali", "Sara", "Omar", "Alexander"]
+# for r in namn2:
+#     if len(r) > 4:
+#         print(r)
 
 
 

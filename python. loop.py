@@ -145,14 +145,14 @@
 # else:
 #     print("finns  i lista1")
 
-m = 1
-while m <=50:
-    if m % 5==0:
-        print("fem")
+# m = 1
+# while m <=50:
+#     if m % 5==0:
+#         print("fem")
         
-    elif m % 3==0:
-        print("Tre")
+#     elif m % 3==0:
+#         print("Tre")
         
-    else:
-        print("Annat")
-    m+=1
+#     else:
+#         print("Annat")
+#     m+=1

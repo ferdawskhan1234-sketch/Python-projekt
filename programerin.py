@@ -38,13 +38,9 @@ if "ferdaws" in den_lista:
 else:
     print("namn finns inte i lista")
 
-
-
 är_lista = [22,3, 4, 5, 5, 7, 10]
 är_lista.remove(10)
 print(är_lista)
-
-
 
 l_lista = [3, 4, 2, 4, 3, 3 ,3 , 44, 4]
 print(l_lista.count(3))
@@ -53,13 +49,11 @@ k_lista = [3, 4, 2, 4, 3, 3 ,3 , 44, 4]
 k_lista.sort(reverse=True)
 print(k_lista)
 
-
 a_lista = [3, 4, 2, 4, 3, 3 ,3 , 44, 4]
 a_lista.append(22)
 a_lista.insert(2, 11)
 a_lista.pop(-3)
 a_lista.sort()
-
 print(len(a_lista))
 print(a_lista)
 

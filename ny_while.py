@@ -124,16 +124,25 @@
 
 
 
-g = 1
-count= 0
-while g <=50:
-    if g % 3==0 or g % 7==0:
-        count+=1
-    g+=1
-print(count)
+# # g = 1
+# # count= 0
+# # while g <=50:
+# #     if g % 3==0 or g % 7==0:
+# #         count+=1
+# #     g+=1
+# # print(count)
 
-
-    
+m = 1
+while m <=50:
+    if m % 5==0:
+        print("fem")
+        m+=1
+    elif m % 3==0:
+        print("Tre")
+        m+=1
+    else:
+        print("Annat")
+        m+=1
 
 
     
