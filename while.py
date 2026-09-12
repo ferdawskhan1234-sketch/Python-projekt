@@ -285,18 +285,26 @@
 
 
 
-count=0
-ctal = [4, 7, 12, 15, 18, 21, 24, 27, 30]
-li11=[]
-for o in ctal:
-    if o %2==0 and o >10:
-        li11.append(o)
-        count+=1
-print(li11)
-print(count)
+# count=0
+# ctal = [4, 7, 12, 15, 18, 21, 24, 27, 30]
+# li11=[]
+# for o in ctal:
+#     if o %2==0 and o >10:
+#         li11.append(o)
+#         count+=1
+# print(li11)
+# print(count)
 
 
 
+
+tal14 = [5, 8, 11, 14, 17, 20, 23, 26, 29]
+
+t=0
+while t < len(tal14):
+    if tal14[t]>15:
+        print(tal14[t])
+        t+=1
 
 
 
