@@ -123,12 +123,12 @@
 #         break
 #     print(n)
 
-s= 0 
-count=0
-tal22 = [4, 9, 12, 15, 18, 21, 24, 27, 30]
-while s <len (tal22):
-    if tal22[s]%3==0:
-        count+=1
-        print(tal22,[s])
-    s+=1
 
+tal23 = [10, 4, 7, 13, 20]
+b=0
+while b < len(tal23):
+    one=tal23[b]
+    tal23[1]=tal23[len(tal23)-3]
+    tal23[len(tal23)-3]=one
+    break
+print(tal23)
