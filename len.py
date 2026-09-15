@@ -364,16 +364,38 @@
 # print(summaa)
 
 #Hitta det minsta talet i listan och skriv ut det.
-tal28 = [4, 7, 12, 3, 18, 9, 25]
-ö=0
-minsta=tal28[ö]
-while ö < len(tal28):
-    if tal28[ö]<minsta:
-        minsta=tal28[ö]
-    ö+=1
+# tal28 = [4, 7, 12, 3, 18, 9, 25]
+# ö=0
+# minsta=tal28[ö]
+# while ö < len(tal28):
+#     if tal28[ö]<minsta:
+#         minsta=tal28[ö]
+#     ö+=1
 
    
-print(minsta)
+# print(minsta)
+
+
+
+
+#Räkna hur många tal som är mindre än 10 och skriv ut antalet.
+
+count=0
+q=0
+tal30 = [5, 12, 8, 3, 17, 6, 10]
+while q <len(tal30):
+    if tal30[q]<10:
+        count+=1
+    q+=1
+        #count==tal30[q]
+print(count)
+
+
+
+
+
+
+
 
 
 
