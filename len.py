@@ -380,15 +380,16 @@
 
 #Räkna hur många tal som är mindre än 10 och skriv ut antalet.
 
-count=0
-q=0
-tal30 = [5, 12, 8, 3, 17, 6, 10]
-while q <len(tal30):
-    if tal30[q]<10:
-        count+=1
-    q+=1
-        #count==tal30[q]
-print(count)
+# count=0
+# q=0
+# tal30 = [5, 12, 8, 3, 17, 6, 10]
+# while q <len(tal30):
+#     if tal30[q]<10:
+#         count+=1
+#     q+=1
+       
+# print(count)
+
 
 
 
