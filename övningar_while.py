@@ -335,18 +335,289 @@
 #Skriv ut index och värde för det första talet
 #som är både jämnt och större än 10
 
-tal24 = [5, 12, 7, 18, 4, 21]
-c=0
-
-while c < len(tal24):
-    if tal24[c]>10 and tal24[c]%2==0:
-     break
-    c+=1
-
-        
-
-print( c, tal24[c])
+# tal24 = [5, 12, 7, 18, 4, 21]
+# c=0
+# while c < len(tal24):
+#     if tal24[c]>10 and tal24[c]%2==0:
+#      break
+#     c+=1
+# print( c, tal24[c])
     
+
+#Skriv ut index och värde för alla tal som är större än 10.
+# tal25 = [7, 14, 3, 18, 9, 22]
+# v=0
+# while v < len(tal25):
+#     if tal25[v]>10:
+#         print(v, tal25[v])
+#     v+=1
+
+
+#Skriv ut index och värde för alla tal som är udda och större än 10.
+# tal26 = [8, 13, 6, 21, 4, 17]
+# b=0
+# while b < len(tal26):
+#     if tal26[b]>10 and tal26[b]%2==1:
+#         print(b, tal26[b])
+#     b+=1
+
+
+
+
+#Skriv ut index och värde för alla tal som är jämna och mindre än 20.
+# tal27 = [6, 15, 8, 23, 4, 11]
+# n=0
+# while n < len(tal27):
+#     if tal27[n]<20 and tal27[n]%2==0:
+#         print(n, tal27[n])
+#     n+=1
+
+#Skriv ut index och värde för alla tal som är udda och mindre än 15.
+# tal28 = [9, 14, 5, 18, 7, 22]
+# m=0
+# while m < len(tal28):
+#     if tal28[m]<15 and tal28[m]%2==1:
+#         print(m, tal28[m])
+#     m+=1
+
+
+
+#Skriv ut index och värde för alla tal som är större än 10 och jämna.
+# tal29 = [12, 7, 16, 3, 21, 8]
+# qq=0
+# while qq < len(tal29):
+#     if tal29[qq]>10 and tal29[qq]%2==0:
+#         print(qq, tal29[qq])
+#     qq+=1
+
+
+#Skriv ut index och värde för alla tal som är mindre än 15 och jämna.
+
+# tal30 = [5, 18, 7, 12, 3, 20]
+# ww=0
+# while ww < len(tal30):
+#     if tal30[ww]%2==0 and tal30[ww]<15:
+#         print(ww, tal30[ww])
+#     ww+=1
+
+
+
+
+
+
+#Skriv ut index och värde för alla tal som är udda och större än 10.
+
+# tal31 = [4, 17, 8, 13, 6, 21]
+# ee=0
+# while ee < len(tal31):
+#     if tal31[ee]>10 and tal31[ee]%2==1:
+#         print(ee, tal31[ee])
+#     ee+=1
+
+
+
+#Skriv ut index och värde för alla tal som är jämna och mindre än 15.
+# tal32 = [8, 15, 4, 19, 6, 12]
+# rr=0
+# while rr < len(tal32):
+#     if tal32[rr]<15 and tal32[rr]%2==0:
+#         print(rr, tal32[rr])
+#     rr+=1
+
+
+
+#Skriv ut index och värde för alla tal som är större än 5 och mindre 
+# än 18.
+
+# tal33 = [11, 6, 17, 4, 9, 20]
+# tt=0
+# while tt < len(tal33):
+#     if tal33[tt]>5 and tal33[tt]<18:
+#         print(tt, tal33[tt])
+#     tt+=1
+
+
+# #Skriv ut index och värde för alla tal som är udda och mindre än 20.
+# tal34 = [7, 12, 5, 16, 9, 21]
+# yy=0
+# while yy < len(tal34):
+#     if tal34[yy]<20 and tal34[yy]%2==1:
+#         print(yy, tal34[yy])
+#     yy+=1
+
+#Räkna ut summan av alla tal i listan.
+# tal35 = [4, 9, 2, 15, 7, 12]
+# # uu=0
+# # soomma=0
+# # while uu < len(tal35):
+# #     soomma+=tal35[uu]
+# #     uu+=1
+# # print(soomma)
+
+#Hitta det största talet i listan.
+# tal36 = [8, 3, 14, 6, 11, 5]
+# ii=0
+# stöörsta=tal36[ii]
+# while ii < len(tal36):
+#     if tal36[ii]>stöörsta:
+#         stöörsta=tal36[ii]
+#     ii+=1
+# print(stöörsta)
+
+
+
+#Hitta det minsta talet i listan.
+# tal37 = [12, 5, 8, 3, 17, 6]
+# oo=0
+# minstta=tal37[oo]
+# while oo < len(tal37):
+#     if tal37[oo]<minstta:
+#         minstta=tal37[oo]
+#     oo+=1
+# print(minstta)
+
+
+#Räkna hur många tal som finns i listan.
+# tal38 = [5, 12, 8, 3, 17, 6]
+# pp=0
+# count=0
+# while pp < len(tal38):
+#         count+=1
+#         pp+=1
+# print(count)
+
+#Räkna ut summan av alla jämna tal i listan.
+# tal39 = [4, 7, 2, 9, 6, 3]
+# åå=0
+# ssomma=0
+# while åå< len(tal39):
+#     if tal39[åå]%2==0:
+#         ssomma+=tal39[åå]
+#     åå+=1
+# print(ssomma)
+
+#Räkna hur många tal som är större än 10.
+# tal40 = [5, 12, 7, 18, 3, 10]
+# aa=0
+# count=0
+# while aa < len(tal40):
+#     if tal40[aa]>10:
+#         count+=1
+#     aa+=1
+# print(count)
+
+
+#Räkna ut summan av alla udda tal i listan.
+# tal41 = [6, 11, 4, 15, 8, 3]
+# ss=0
+# suumma=0
+# while ss < len(tal41):
+#     if tal41[ss]%2==1:
+#         suumma+=tal41[ss]
+#     ss+=1
+# print(suumma)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
