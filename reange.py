@@ -140,16 +140,16 @@
 #Skapa en ny lista där:tal mindre än 10 → lägg till talet + 5
 #tal mellan 10 och 20 → lägg till talet - 3
 #tal större än 20 → lägg till talet × 2
-tal13 = [7, 14, 3, 18, 9, 22, 5]
-v=[]
-for s in range(len(tal13)):
-    if tal13[s]>10 and tal13[s]<20:
-        v.append(tal13[s]-3)
-    elif tal13[s]<10:
-        v.append(tal13[s]+5)
-    elif tal13[s]>20:
-        v.append(tal13[s]*2)
-print(v)
+# tal13 = [7, 14, 3, 18, 9, 22, 5]
+# v=[]
+# for s in range(len(tal13)):
+#     if tal13[s]>10 and tal13[s]<20:
+#         v.append(tal13[s]-3)
+#     elif tal13[s]<10:
+#         v.append(tal13[s]+5)
+#     elif tal13[s]>20:
+#         v.append(tal13[s]*2)
+# print(v)
 
 
 

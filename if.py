@@ -753,12 +753,12 @@
 
 #Skapa en ny lista med alla tal
 #som är udda, men lägg dem i omvänd ordning.
-tal27 = [6, 15, 4, 21, 8, 13]
-j=[]
-for x in range(len(tal27)-1,-1,-1):
-    if tal27[x]%2==1:
-        j.append(tal27[x])
-print(j)
+# tal27 = [6, 15, 4, 21, 8, 13]
+# j=[]
+# for x in range(len(tal27)-1,-1,-1):
+#     if tal27[x]%2==1:
+#         j.append(tal27[x])
+# print(j)
 
 
 

@@ -206,12 +206,19 @@
 # print(kontrolll(4, 13))
 
 #Skapa en funktion som tar emot ett namn och ett antal år
-def hälsa(namn, ålder):
-    return namn, "du är", ålder 
-print(hälsa("Ali", 20))
+# def hälsa(namn, ålder):
+#     return " Hej " + namn  + " du är  "  + str(ålder)  +   " år " 
+# print(hälsa( "Ali", 20))
 
-
-
+#Skapa en funktion som tar emot ett namn och en ålder.
+#"Ali får rösta" om åldern är 18 eller mer
+#"Ali får inte rösta" om åldern är under 18
+def röst_rätt(namn, ålder):
+    if ålder>=18:
+        return namn + " får rösta "
+    elif ålder < 18:
+        return namn + " får inte rösta   "
+print(röst_rätt("Ali", 21))
 
 
 
