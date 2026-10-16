@@ -1,2 +1,3 @@
-print("hej")
-
+lista = [1, 2, 3, 4]
+lista.append(33)
+print(lista)
