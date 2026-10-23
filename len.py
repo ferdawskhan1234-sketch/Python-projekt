@@ -168,13 +168,42 @@
 # "a" skrivs med stora bokstäver. 
 # Ord som inte innehåller "a" ska inte tas med.
 
-def funkt(liss):
-    bkst=[]
-    for s in range(len(liss)):
-        if "a" in liss[s]:
-            bkst.append(liss[s].upper())
-    return bkst
-print(funkt(["hund", "katt", "bil", "apa", "sol"]))
+# def funkt(liss):
+#     bkst=[]
+#     for s in range(len(liss)):
+#         if "a" in liss[s]:
+#             bkst.append(liss[s].upper())
+#     return bkst
+# print(funkt(["hund", "katt", "bil", "apa", "sol"]))
+
+
+
+
+
+#Skriv en funktion som tar emot en lista 
+#med namn och returnerar en ny lista med namn som har 
+#fler än fyra tecken och börjar med bokstaven A.
+
+def funktion(namneer):
+    lista7=[]
+    for d in range(len(namneer)):
+        if len( namneer[d])>4 and namneer[d][0]=="A":
+            lista7.append(namneer[d])
+    return lista7
+print(funktion(["Ali", "Ahmed", "Amir", "Sara", "Alexander"]))
+        
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
